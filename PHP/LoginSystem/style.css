@@ -1,0 +1,51 @@
+/* css variables */
+:root{
+    --primary: #d84e0f;
+    --white: #fff;
+}
+
+html,
+body{
+    background-image: url("sky.avif");
+
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.container{
+    height: 100%;
+}
+.card{
+    width: 400px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.card-header > h3 {
+    color: var(--white);
+}
+.input-group> span {
+
+    background-color: var(--primary);
+    border: 0;
+    color: var(--white);
+}
+input:focus{
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+}
+.signup_btn {
+    color: var(--white);
+    background-color: var(--primary);
+}
+.signup_btn:hover {
+    color: var(--white);
+    background-color: var(--white);
+}
+.signup > a {
+    color: var(--primary);
+}
+.signin > a {
+    color: var(--primary);
+}
+.signin_card {
+    height: 300px;
+}

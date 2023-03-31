@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Bookmark Page</title>
+</head>
+<body>
+
+    Hello World!
+    <button onclick="alert('Hello JS')">JavaScript</button>
+    <button onclick="alert('Hello HTML')">HTML</button>
+    <button onclick="alert('Hello CSS')">CSS</button>
+
+    <h1>Bookmarks</h1>
+
+    <button id="google">Google</button>
+    <button id="fb">Facebook</button>
+    <button id="twitter">Twitter</button>
+
+    <script>
+        document.getElementById("google").addEventListener(
+            "click", function(){
+                window.location = "https://www.google.com";
+                win.focus();
+            }
+        )
+        document.getElementById('fb').addEventListener(
+            "click", function(){
+                window.location = "https://facebook.com";
+                win.focus();
+            }
+        )
+        document.getElementById("twitter").addEventListener(
+            "click", function(){
+                window.location = "https://www.twitter.com";
+            }
+        )
+    </script>
+    
+</body>
+</html>
