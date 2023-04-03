@@ -27,6 +27,8 @@ require 'connection.php';
         body
         {
             background-color: rgba(0, 0, 0, 0.5);
+            /* background:  linear-gradient(to bottom, gray , lightblue, black);
+            background-size: 100vh; */
         }
         .card
         {
@@ -44,7 +46,7 @@ require 'connection.php';
             <div class="col-md-12">
                 <div class="card" style="border: 2px solid black;">
                     <div class="card-header" style="border-bottom: 2px solid black;">
-                        <h4>Add Details
+                        <h4>User Details
                             <a href="index.php" class="btn btn-primary float-right">BACK</a>
                         </h4>
                     </div>
